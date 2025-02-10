@@ -1,0 +1,128 @@
+/* General Styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  color: black;
+  background-color: #f4f4f9;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #1e3d58;
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+
+h2, h3 {
+  color: #1e3d58;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: #1e3d58;
+  font-size: 1.3em;
+}
+
+/* Alert Styles */
+.alert {
+  color: black;
+  background-color: #f8d7da;
+  padding: 15px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+/* Reservation Form Styles */
+.reservation-form,
+.menu-section,
+.seats-info,
+.reservation-list {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form label {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.reservation-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 1.1em;
+}
+
+.reservation-form input:focus {
+  background-color: white;
+  border-color: #4caf50;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Menu Section */
+.menu-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-item-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.add-to-order {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 15px;
